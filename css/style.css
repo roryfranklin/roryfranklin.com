@@ -1,0 +1,85 @@
+/* line 1, ../../app/assets/stylesheets/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 2, ../../app/assets/stylesheets/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 3, ../../app/assets/stylesheets/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 5, ../../app/assets/stylesheets/style.scss */
+::-webkit-selection {
+  background: #d6ecfd;
+  text-shadow: none;
+}
+
+/* line 6, ../../app/assets/stylesheets/style.scss */
+::-moz-selection {
+  background: #d6ecfd;
+  text-shadow: none;
+}
+
+/* line 7, ../../app/assets/stylesheets/style.scss */
+::selection {
+  background: #d6ecfd;
+  text-shadow: none;
+}
+
+/* Global Styles */
+/* line 26, ../../app/assets/stylesheets/style.scss */
+html {
+  background: #f4f5f6;
+  color: #222;
+  font-family: "Poly", Georgia, serif;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+/* line 34, ../../app/assets/stylesheets/style.scss */
+body {
+  margin: 0 30px;
+  max-width: 700px;
+}
+
+/* line 39, ../../app/assets/stylesheets/style.scss */
+h1 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 300%;
+  font-weight: 900;
+  line-height: 90%;
+}
+/* line 45, ../../app/assets/stylesheets/style.scss */
+h1 a {
+  color: inherit;
+}
+/* line 49, ../../app/assets/stylesheets/style.scss */
+h1 a:hover {
+  background: transparent;
+}
+
+/* line 54, ../../app/assets/stylesheets/style.scss */
+a {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #2791e2;
+  text-decoration: none;
+}
+/* line 59, ../../app/assets/stylesheets/style.scss */
+a:hover {
+  background: #d6ecfd;
+  color: #1a72b5;
+}
+
+/* line 65, ../../app/assets/stylesheets/style.scss */
+.ss-icon {
+  font-size: 80%;
+}
