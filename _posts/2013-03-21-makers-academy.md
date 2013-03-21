@@ -4,7 +4,7 @@ title: Makers Academy
 ---
 
 {{ page.title }}
-================
+----------------
 
 <p class="meta">21 March 2013 - London</p>
 
