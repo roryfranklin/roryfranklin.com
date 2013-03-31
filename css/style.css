@@ -1,85 +1,82 @@
-/* line 1, ../../app/assets/stylesheets/style.scss */
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table;
-}
+/* Reset */
 
-/* line 2, ../../app/assets/stylesheets/style.scss */
-.clearfix:after {
-  clear: both;
-}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
 
-/* line 3, ../../app/assets/stylesheets/style.scss */
-.clearfix {
-  *zoom: 1;
-}
+::-webkit-selection { background: #d6ecfd; text-shadow: none; }
+::-moz-selection { background: #d6ecfd; text-shadow: none; }
+::selection { background: #d6ecfd; text-shadow: none; }
 
-/* line 5, ../../app/assets/stylesheets/style.scss */
-::-webkit-selection {
-  background: #d6ecfd;
-  text-shadow: none;
-}
-
-/* line 6, ../../app/assets/stylesheets/style.scss */
-::-moz-selection {
-  background: #d6ecfd;
-  text-shadow: none;
-}
-
-/* line 7, ../../app/assets/stylesheets/style.scss */
-::selection {
-  background: #d6ecfd;
-  text-shadow: none;
-}
+* { margin: 0; }
 
 /* Global Styles */
-/* line 26, ../../app/assets/stylesheets/style.scss */
-html {
-  background: #f4f5f6;
-  color: #222;
-  font-family: "Poly", Georgia, serif;
-  font-size: 20px;
-  line-height: 120%;
-}
 
-/* line 34, ../../app/assets/stylesheets/style.scss */
 body {
-  margin: 0 30px;
-  max-width: 700px;
+  background: #0A1B30;
+  color: #FFF;
+  font: 18px / 26px Georgia, serif;
+  padding: 26px;
+  max-width: 35em;
 }
 
-/* line 39, ../../app/assets/stylesheets/style.scss */
+h1, h2, h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 100;
+}
+
 h1 {
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-size: 300%;
-  font-weight: 900;
-  line-height: 90%;
-}
-/* line 45, ../../app/assets/stylesheets/style.scss */
-h1 a {
-  color: inherit;
-}
-/* line 49, ../../app/assets/stylesheets/style.scss */
-h1 a:hover {
-  background: transparent;
+  font-size: 60px;
+  line-height: 76px;
+  margin-bottom: 52px;
 }
 
-/* line 54, ../../app/assets/stylesheets/style.scss */
-a {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  color: #2791e2;
+h1 a {
+  border-bottom-width: 2px;
+  color: inherit;
+  font-family: inherit;
   text-decoration: none;
 }
-/* line 59, ../../app/assets/stylesheets/style.scss */
-a:hover {
-  background: #d6ecfd;
-  color: #1a72b5;
+
+h2 {
+  font-size: 36px;
+  line-height: 52px;
+  margin: 52px 0 26px;
+}
+ 
+h3 {
+  font-size: 18px;
+  margin: 26px 0;
+}
+ 
+h4 {
+  font-size: 18px;
+  margin: 26px 0 0;
 }
 
-/* line 65, ../../app/assets/stylesheets/style.scss */
-.ss-icon {
-  font-size: 80%;
+p {
+  margin: 26px 0;
+}
+
+a {
+  border-bottom: 1px solid #43EB92;
+  color: #43EB92;
+  font-family: 'Courier New', monospace;
+  text-decoration: none;
+}
+
+/* Local Styles */
+
+.posts {
+  list-style: none;
+  padding: 0;
+}
+
+.posts li {
+  margin-bottom: 26px;
+}
+
+.date {
+  font-family: 'Courier New', monospace;
+  font-style: italic;
 }
