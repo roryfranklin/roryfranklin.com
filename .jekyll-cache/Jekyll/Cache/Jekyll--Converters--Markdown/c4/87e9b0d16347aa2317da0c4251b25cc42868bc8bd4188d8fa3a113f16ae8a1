@@ -1,0 +1,20 @@
+I"�<h2 id="oh-hai">Oh HAI!</h2>
+
+<p class="meta">21 March 2013 - London</p>
+
+<p>After an incredibly long time of having no website, or at least a website that was a placeholder for something planned but never appeared, I’ve finally gotten my act together to put something up.</p>
+
+<p>The layout was kindly put together by my colleague <a href="http://edboaden.com">Ed Boaden</a>. I don’t really have the design chops to put something together myself but I am learning, so maybe this will change at some point in the future!</p>
+
+<h3 id="what-am-i-looking-to-do-with-this-website">What am I looking to do with this website?</h3>
+
+<p>The plan for this website is for me to have a place to highlight some of the work I do as well as ramble on about things in general. People I work with know that I love to ramble on for hours about things I find interesting, even if they don’t. This is probably a far better place for me to dump those ideas!</p>
+
+<h3 id="what-kind-of-magic-runs-this-website">What kind of magic runs this website?</h3>
+
+<p>This site has been put together using the wonderful <a href="https://github.com/mojombo/jekyll">Jekyll</a> static-site generator. It is running on <a href="https://heroku.com">Heroku</a> because that is a great platform for me to get something up and running without worrying about complicated configuration or managing my own hosting.</p>
+
+<p>Posts are written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> which is a nice tool to convert text into HTML.</p>
+
+<p>Eventually (if I can figure out how to), I’m going to convert the stylesheets I’m using in to <a href="http://sass-lang.com/">Sass</a> because it is a really nice way to generate CSS with some great extensions on top of vanilla CSS.</p>
+:ET
